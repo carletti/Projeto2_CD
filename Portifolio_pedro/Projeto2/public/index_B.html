@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js" >
+ 	 </script>
+
+  	<script>
+ 	 versao = "B"
+  	</script>
+
+ 	 <script src="scripts/main.js"></script>
+
+
+
+ 	 <script>
+ 	 	enviar('inicial', id_pessoa, Date.now(), versao);
+ 	 </script>
+
+
+		<meta charset="utf-8">
+		<title>Meus Projetos</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/corpo.css">
+		<link href="https://fonts.googleapis.com/css?family=Amatica+SC|Raleway:500" rel="stylesheet">
+
+	</head>
+
+	<body class="cores_texto">
+		      <script src="client.min.js"></script>
+      <script>
+        var client = new ClientJS();
+        var id_pessoa = client.getFingerprint();
+      </script>  	
+		<div>
+			<header>
+				<nav>
+					<ul class="group cor_do_cabecalho">
+						<li class="menuitem"><a class="cor_link menu-item" href="index.html" title="Você está aqui">Início</a></li>
+						<li class="menuitem menu-item cor_do_cabecalho" >
+							Habilidades
+							<ul class="menu submenu">
+								<li class="menu-item"><a class="cor_link menu-item" href="paginas/Habilidades_computacionais.html">Computacionais</a></li>
+								<li class="menu-item"><a class="cor_link menu-item" href="paginas/Habilidades_teoricas.html">Teóricas</a></li>
+								<li class="menu-item"><a class="cor_link menu-item" href="paginas/Habilidades_manuais_tecnicas.html">Manuais tecnicas</a></li>
+								<li class="menu-item"><a class="cor_link menu-item" href="paginas/Habilidades_escritas.html">Escritas</a></li>
+								<li class="menu-item"><a class="cor_link menu-item" href="paginas/Habilidades_abstração_design.html">Design e abstração</a></li>
+							</ul>
+						</li>
+						<li class="menuitem menu-item cor_do_cabecalho">
+							Projetos Independentes
+							<ul class="menu submenu">
+								<li class="menu-item"><a class="cor_link menu-item" href="paginas/Projpes.html" title="Você esta aqui">Pedal de Guitarra</a></li>
+								<li class="menu-item"><a class="cor_link menu-item" href="paginas/ProjetoGenerico.html">Portal Gun</a></li>
+							</ul>
+						</li>
+						<li class="menuitem"><a class="cor_link menu-item" href="paginas/Biografia.html">Biografia</a></li>
+						<li class="menuitem"><a class="cor_link menu-item" href="paginas/Contato.html">Contato</a></li>
+						<li class="imagens">
+						<a href="http://www.insper.edu.br/" title="Site do Insper"><img src="imagens/INSPER.jpg" alt=""></a>
+						<a href="https://twitter.com/sa_sa_cookies" title="Meu Twitter"> <img src="imagens/30px_twitter.png" alt=""></a> 
+						<a href="https://www.facebook.com/sabrina.sampaiosimao?ref=bookmarks" title="Meu Facebook"><img src="imagens/facebook.png" alt=""></a>
+						<a href="https://github.com/SabrinaSimao" title="Meu GitHub"><img src="imagens/github.png" alt=""></a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				 
+				<img src="imagens/Pedro_econo.jpg" alt="">
+				<h1>PEDRO CERVERA MARTINS GARCIA</h1>
+				<section>
+				<p>
+					Está página contém meu portfólio enquanto estudo Engenharia da Computação no Insper. Pretendo atualizá-la ao longo do curso, enquanto surgem mais projetos no meu histórico e acontecem progressos diversos em minha carreira.
+				</p>
+				<p>
+					Nas primeiras abas, sinta-se livre para escolher uma habilidade que preza em mim! Ela te levará a uma gama de projetos e trabalhos que fiz relacionados a essa aptidão.
+				</p>
+				<p>
+					Contudo, se preferir olhar os projetos que eu considero como preferidos, siga para a segunda aba, lá terá trabalhos que me orgulho muito!
+				</p>
+				<p>
+					Se quiser me contactar ou me achar em redes sociais, este site dispõe dessas opções no canto superior direito da página. E, por favor, qualquer critica ou ideia para este prototipo de portfólio, gostaria muito de ouvir! Aceito todo tipo de comentário, só me enviar por e-mail e responderei assim que puder.
+				</p>
+				
+				</section>
+				<footer>
+					<p> &copy; 2016 Pedro, Sabrina, Isabela, Patrick</p>
+				</footer>
+			</main>
+		</div>
+	</body>
+
+	<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAbBSSLdBXD2p_5xCu5RAvIG0cseeJuTM8",
+	    authDomain: "cd-eng.firebaseapp.com",
+	    databaseURL: "https://cd-eng.firebaseio.com",
+	    storageBucket: "cd-eng.appspot.com",
+	    messagingSenderId: "644100689837"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+</html>
